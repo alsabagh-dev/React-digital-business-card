@@ -4,7 +4,7 @@ import Main from "./Main";
 const Card = function(props){
     return(
         <div className="card">
-            <h1>Image</h1>
+            <img className="card-img" src="/alsabagh.png"/>
             <Main/>
             <Article/>
             <Article/>
