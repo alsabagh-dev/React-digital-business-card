@@ -1,3 +1,4 @@
+import Article from "./Article";
 import Main from "./Main";
 
 const Card = function(props){
@@ -5,6 +6,8 @@ const Card = function(props){
         <div className="card">
             <h1>Image</h1>
             <Main/>
+            <Article/>
+            <Article/>
         </div>
     );
 }
