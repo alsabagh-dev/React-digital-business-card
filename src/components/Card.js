@@ -1,6 +1,11 @@
+import Main from "./Main";
+
 const Card = function(props){
     return(
-        <h1>Card</h1>
+        <div className="card">
+            <h1>Image</h1>
+            <Main/>
+        </div>
     );
 }
 
