@@ -32,9 +32,11 @@ body{
     overflow: clip;
     background-color: var(--bg-dark-2);
 }
+.container{
+    padding: 1rem 2rem;
+}
 /************Main Section ****************/
 .main{
-    padding: 2rem;
     text-align: center;
 }
 .main--name{
@@ -94,4 +96,21 @@ body{
     background-color: #5093E2;
     color: #FFF;
     margin-left: 1rem;
+}
+
+/********** Article *************/
+.article{
+    color: #F5F5F5;
+    margin: 1.5rem 0rem;
+}
+.article h2{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+}
+.article p {
+    color: #DCDCDC;
+    font-size: .9rem;
+    word-spacing: -.2rem;
 }

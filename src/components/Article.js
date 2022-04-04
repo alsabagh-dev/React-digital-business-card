@@ -1,7 +1,9 @@
 const Article = function(props){
+
     return(
         <div className="article">
-            <h1>Article</h1>
+            <h2>{props.title}</h2>
+            <p>{props.content}</p>
         </div>
     );
 }
