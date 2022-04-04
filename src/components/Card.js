@@ -1,13 +1,14 @@
 import Article from "./Article";
 import Footer from "./Footer";
 import Main from "./Main";
+import Avatar from "../alsabagh.png";
 
 const Card = function (props) {
     const info = props.info;
 
     return (
         <div className="card">
-            <img className="card-img" src={info.Avatar} alt={info.Name} />
+            <img className="card-img" src={Avatar} alt={info.Name} />
             <div className="container">
                 <Main
                     name={info.Name}
