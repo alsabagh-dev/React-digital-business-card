@@ -1,4 +1,5 @@
 import Article from "./Article";
+import Footer from "./Footer";
 import Main from "./Main";
 
 const Card = function (props) {
@@ -25,6 +26,11 @@ const Card = function (props) {
                     )
                 })}
             </div>
+            <Footer
+                twitter={info.Twitter}
+                stackoverflow={info.StackOverflow}
+                github={info.Github}
+            />
         </div>
     );
 }
