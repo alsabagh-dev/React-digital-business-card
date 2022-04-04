@@ -23,11 +23,9 @@ body{
     align-items: center;
 }
 .card{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: 5rem;
     display: flex;
     flex-direction: column;
-    width: 60vw;
     max-width: 500px;
     border-radius: 15px;
     overflow: clip;
@@ -73,6 +71,7 @@ body{
 .main--btn-container a{
     text-decoration: none;
 }
+
 .main--btn{
     display: flex;
     padding: .6rem 1.7rem;
@@ -97,6 +96,22 @@ body{
     background-color: #5093E2;
     color: #FFF;
     margin-left: 1rem;
+}
+
+@media (max-width: 500px) {
+    .card{
+        margin: 1.5rem;
+    }
+    .main--btn-container {
+        display: block;
+    }
+    .main--btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .main--btn-linkedIn{
+        margin-left: 0;
+    }
 }
 
 /********** Article *************/
