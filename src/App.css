@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 :root{
     --bg-dark-1: #23252C;
     --bg-dark-2: #1A1B21;
@@ -10,6 +12,8 @@
 }
 body{
     background-color: var(--bg-dark-1);
+    font-family: 'Inter' sans-serif;
+    font-size: 16px;
 }
 .app{
     
@@ -27,4 +31,67 @@ body{
     border-radius: 15px;
     overflow: clip;
     background-color: var(--bg-dark-2);
+}
+/************Main Section ****************/
+.main{
+    padding: 2rem;
+    text-align: center;
+}
+.main--name{
+    color: white;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin-bottom: .5rem;
+}
+.main--title{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #F3BF99;
+}
+.main--site{
+    display: block;
+    text-decoration: none;
+    margin: 1rem;
+}
+.main--site:visited,
+.main--site:active,
+.main--site:link
+{
+    color: #F5F5F5;
+}
+
+.main--btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main--btn-container a{
+    text-decoration: none;
+}
+.main--btn{
+    display: flex;
+    padding: .6rem 1.7rem;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #374151;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.main--btn-icon{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .3rem;
+}
+.main--btn-linkedIn{
+    border: 1px solid #5093E2;
+    background-color: #5093E2;
+    color: #FFF;
+    margin-left: 1rem;
 }
